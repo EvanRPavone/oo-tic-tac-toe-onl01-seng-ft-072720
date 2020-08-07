@@ -39,13 +39,3 @@ class TicTacToe
   end
 
 end
-
-
-
-
-
-
-
-
-
-
