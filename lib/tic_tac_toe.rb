@@ -13,7 +13,7 @@ class TicTacToe
     [0,4,8],
     [2,4,6]
   ]
-
+end
   def display_board
     puts "#{@board[0]} | #{@board[1]} | #{@board[2]}"
     puts "-----------"
@@ -37,5 +37,3 @@ class TicTacToe
   def valid_move?(index)
     index.between?(0,8) && !position_taken?(index)
   end
-
-end
