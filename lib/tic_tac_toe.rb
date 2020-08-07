@@ -29,4 +29,8 @@ class TicTacToe
   def move(position, char)
     @board[position] = char
   end
+
+  def position_taken?(index_i)
+    ((@board[index_i] == "X") || (@board[index_i] == "O"))
+  end
 end
